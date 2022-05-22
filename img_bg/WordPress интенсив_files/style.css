@@ -313,54 +313,15 @@ h2.title {
 .footer {
     min-height: 166px;
     background-color: #1a1a1a;
-    padding: 61px 0 69px 0;
 }
 
-/* .footer .footer_menu {
-    text-align: center;
-} */
-
-.footer .footer_menu .footer_menu_list {
-    display: flex;
-    justify-content: center;
-    
-    list-style-type: none;
-    
-}
-
-.footer .footer_menu .footer_menu_list .footer_menu_list_divider {
-    margin: 0 5px 0 5px;
-    color:#888888;
-}
-
-.footer .footer_menu .footer_menu_list li a {
+.footer .footer_menu .footer_menu_links, .footer_number .call_me, .footer_number .footer_number_call {
     font-family: Roboto;
     font-size: 15px;
+    line-height: 21px;
     font-weight: 300;
     text-decoration: underline;
     color: #888888;
-}
-
-.footer .footer_number div {
-    font-family: Roboto;
-    font-size: 15px;
-    font-weight: 300;
-    text-decoration: underline;
-    color: #888888;
-}
-
-.footer .footer_number {
-    display: flex;
-    justify-content: center;
-    margin-top:5px;
-}
-.footer .footer_number .call_me {
-    margin: 0 4px 0 0;
-}
-
-.footer .footer_number a {
-    color: #888888;
-    
 }
 
 
